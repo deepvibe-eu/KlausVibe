@@ -16,7 +16,19 @@ La famille _Vibe_ propose une application dédiée par fournisseur (DeepVibe pou
 
 ## Téléchargements
 
-Les installateurs pour macOS, Windows et Linux sont publiés dans [Releases](../../releases). Le programme de mise à jour intégré vérifie ce dépôt.
+Les installateurs pour macOS, Windows et Linux sont disponibles sur la [page des versions](../../releases) ; la version la plus récente est toujours étiquetée **latest** :
+
+| Plateforme | Fichiers |
+| --- | --- |
+| macOS (Apple Silicon) | `KlausVibe-<version>-mac-arm64.dmg` · `KlausVibe-<version>-mac-arm64.zip` |
+| Windows | `KlausVibe-<version>-win-x64.exe` |
+| Linux | `KlausVibe-<version>-linux-x86_64.AppImage` · `KlausVibe-<version>-linux-amd64.deb` · `KlausVibe-<version>-linux-x86_64.rpm` · `KlausVibe-<version>-linux-x64.pkg.tar.zst` |
+
+Chaque application de la famille *Vibe* est publiée avec le **même numéro de version** (actuellement 1.0.3). Le programme de mise à jour intégré vérifie la dernière version de ce dépôt.
+
+> **macOS (Apple Silicon) :** la version est **non signée** (pas de programme Apple Developer payant), donc Gatekeeper
+> affiche un avertissement au premier lancement. L'application est signée ad-hoc — ouvrez-la une fois via **clic droit → Ouvrir**, ou exécutez
+> `xattr -dr com.apple.quarantine "/Applications/KlausVibe.app"`.
 
 ## Compilation depuis les sources
 
