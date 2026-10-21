@@ -3,16 +3,16 @@
 # KlausVibe
 
 <div align="center">
-  <img src="packages/desktop/build/README-images/KlausVibe_fr.png" alt="KlausVibe screenshot" width="auto" />
+  <img src="packages/desktop/build/README-images/KlausVibe_fr.png" alt="Скриншот KlausVibe" width="auto" />
 </div>
 
 <p align="center">
   <a href="https://deepvibe.eu/klausvibe">klausvibe.eu</a>
 </p>
 
-KlausVibe — это **сборка для Claude** из семейства _Vibe_ — форк ZCode, ориентированный на одного провайдера: **Claude** (Anthropic). Одна модель, одно рабочее пространство, партнёр — не агент.
+KlausVibe — это **сборка Claude** из семейства _Vibe_ — форк ZCode, ориентированный на одного провайдера: **Claude** (Anthropic). Одна модель, одно рабочее пространство, партнёр — а не агент.
 
-Семейство _Vibe_ выпускает по одному специализированному приложению на каждого провайдера (DeepVibe для DeepSeek, KimiVibe для Kimi, LamaVibe для Ollama, KlausVibe для Claude, …), каждое со своим характером. Оно существует **наряду** с ZCode, а не вместо него: ZCode — для работы с несколькими провайдерами, приложения Vibe — для тех, кому нужна одна модель, одно рабочее пространство, один партнёр. Полный исходный код смотрите в основном репозитории.
+Семейство _Vibe_ выпускает по одному специализированному приложению на каждого провайдера (DeepVibe для DeepSeek, KimiVibe для Kimi, LamaVibe для Ollama, KlausVibe для Claude, …), каждое со своим характером. Оно существует **наряду** с ZCode, а не вместо него: ZCode — для работы с несколькими провайдерами, приложения Vibe — для тех, кому нужна одна модель, одно рабочее пространство, один партнёр. Полный код проекта см. в основном репозитории.
 
 ## Загрузки
 
@@ -24,9 +24,9 @@ KlausVibe — это **сборка для Claude** из семейства _Vib
 | Windows | `KlausVibe-<version>-win-x64.exe` |
 | Linux | `KlausVibe-<version>-linux-x86_64.AppImage` · `KlausVibe-<version>-linux-amd64.deb` · `KlausVibe-<version>-linux-x86_64.rpm` · `KlausVibe-<version>-linux-x64.pkg.tar.zst` |
 
-Все приложения семейства *Vibe* выпускаются с **одинаковым номером версии** (сейчас 1.0.5). Встроенное средство обновления проверяет последний релиз этого репозитория.
+Все приложения семейства *Vibe* выпускаются с **одинаковым номером версии** (сейчас 1.0.5). Встроенный механизм обновления проверяет последний релиз этого репозитория.
 
-> **macOS (Apple Silicon):** сборка **неподписанная** (без платной программы Apple Developer), поэтому Gatekeeper
+> **macOS (Apple Silicon):** сборка **неподписанная** (нет платной программы Apple Developer), поэтому Gatekeeper
 > предупреждает при первом запуске. Приложение подписано ad-hoc — откройте его один раз через **правый клик → Открыть** или выполните
 > `xattr -dr com.apple.quarantine "/Applications/KlausVibe.app"`.
 
