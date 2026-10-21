@@ -24,7 +24,7 @@ Los instaladores para macOS, Windows y Linux están en la [página de releases](
 | Windows | `KlausVibe-<version>-win-x64.exe` |
 | Linux | `KlausVibe-<version>-linux-x86_64.AppImage` · `KlausVibe-<version>-linux-amd64.deb` · `KlausVibe-<version>-linux-x86_64.rpm` · `KlausVibe-<version>-linux-x64.pkg.tar.zst` |
 
-Cada aplicación de la familia *Vibe* se publica con el **mismo número de versión** (actualmente 1.0.3). El actualizador integrado comprueba la última release de este repositorio.
+Cada aplicación de la familia *Vibe* se publica con el **mismo número de versión** (actualmente 1.0.5). El actualizador integrado comprueba la última release de este repositorio.
 
 > **macOS (Apple Silicon):** la build **no está firmada** (sin Apple Developer Program de pago), por lo que Gatekeeper
 > avisa en el primer inicio. La aplicación está firmada ad-hoc — ábrela una vez con **clic derecho → Abrir**, o ejecuta
