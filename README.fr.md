@@ -44,4 +44,4 @@ ZCODE_KLAUS_IDENTITY=1 pnpm bundle:desktop -- --os linux --arch x64
 
 ## Licence et attribution
 
-Basé sur ZCode (Apache-2.0) ; la licence et le fichier NOTICE sont conservés. KlausVibe est un projet indépendant et n'est affilié ni à ZCode/Z.ai ni à Anthropic. Claude et Anthropic sont des marques de leurs propriétaires respectifs ; le logo est utilisé avec l'autorisation de l'exploitant.
+Basé sur ZCode (Apache-2.0) ; la licence et le fichier NOTICE sont conservés. KlausVibe est un projet indépendant et n'est affilié ni à ZCode/Z.ai ni à Anthropic. Claude et Anthropic sont des marques de leur propriétaire ; le logo est utilisé avec l'autorisation de l'opérateur.

@@ -16,7 +16,7 @@ Die _Vibe_-Familie liefert eine fokussierte App pro Anbieter (DeepVibe für Deep
 
 ## Downloads
 
-Installer für macOS, Windows und Linux findest du auf der [Releases-Seite](../../releases); das neueste Release ist immer mit **latest** getaggt:
+Installer für macOS, Windows und Linux findest du auf der [Releases-Seite](../../releases); die neueste Version ist immer mit **latest** getaggt:
 
 | Plattform | Dateien |
 | --- | --- |
@@ -24,10 +24,10 @@ Installer für macOS, Windows und Linux findest du auf der [Releases-Seite](../.
 | Windows | `KlausVibe-<version>-win-x64.exe` |
 | Linux | `KlausVibe-<version>-linux-x86_64.AppImage` · `KlausVibe-<version>-linux-amd64.deb` · `KlausVibe-<version>-linux-x86_64.rpm` · `KlausVibe-<version>-linux-x64.pkg.tar.zst` |
 
-Jede App der *Vibe*-Familie wird mit der **gleichen Versionsnummer** veröffentlicht (derzeit 1.0.8). Der integrierte Updater prüft das neueste Release dieses Repositories.
+Jede App der *Vibe*-Familie wird mit der **gleichen Versionsnummer** veröffentlicht (derzeit 1.0.8). Der integrierte Updater prüft die neueste Version dieses Repositorys.
 
-> **macOS (Apple Silicon):** Der Build ist **unsigniert** (kein kostenpflichtiges Apple Developer Program), daher warnt
-> Gatekeeper beim ersten Start. Die App ist ad-hoc signiert — öffne sie einmal über **Rechtsklick → Öffnen** oder führe
+> **macOS (Apple Silicon):** Der Build ist **unsigniert** (kein kostenpflichtiges Apple Developer Program), daher warnt Gatekeeper
+> beim ersten Start. Die App ist ad-hoc signiert — öffne sie einmal über **Rechtsklick → Öffnen** oder führe
 > `xattr -dr com.apple.quarantine "/Applications/KlausVibe.app"` aus.
 
 ## Aus dem Quellcode bauen
